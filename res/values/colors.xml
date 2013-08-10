@@ -18,8 +18,8 @@
 
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_secondary_text_color">#888888</color>
-    <color name="smartdial_name_primary_text_color">#0099cc</color>
-    <color name="smartdial_name_highlighted_text_color">#39c9ff</color>
+    <color name="smartdial_name_primary_text_color">#ff8e00</color>
+    <color name="smartdial_name_highlighted_text_color">#dcdcdc</color>
     <color name="smartdial_number_primary_text_color">#bbbbbb</color>
     <color name="smartdial_number_highlighted_text_color">#ffffff</color>
 
@@ -27,7 +27,7 @@
     <color name="call_log_missed_call_highlight_color">#FF0000</color>
 
     <!-- Color of the text describing an unconsumed voicemail. -->
-    <color name="call_log_voicemail_highlight_color">#33b5e5</color>
+    <color name="call_log_voicemail_highlight_color">#ff8e00</color>
 
     <!-- Colour background for the voicemail playback ui. -->
     <color name="voicemail_playback_ui_background">@android:color/black</color>
