@@ -16,13 +16,7 @@
   -->
 <resources>
     <style name="DialtactsTheme"
-           parent="android:Theme.Holo">
-        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@drawable/background_dial_holo_dark</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
+           parent="@style/DialtactsTheme1">
         <item name="activated_background">@drawable/list_item_activated_background</item>
         <item name="section_header_background">@drawable/list_title_holo</item>
         <item name="list_section_header_height">32dip</item>
@@ -65,10 +59,22 @@
         <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
     </style>
 
-    <style name="CallDetailActivityTheme" parent="android:Theme.Holo">
+    <style name="DialtactsTheme1" parent="@android:style/Theme.Holo">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/background_dial_holo_dark</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+
+    <style name="CallDetailActivityTheme1" parent="@android:style/Theme.Holo">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:gravity">top</item>
-        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>>
+    </style>
+
+    <style name="CallDetailActivityTheme" parent="@style/CallDetailActivityTheme1">
         <!-- CallLog -->
         <item name="call_log_primary_text_color">#FFFFFF</item>
         <item name="call_log_primary_background_color">#000000</item>
