@@ -87,7 +87,15 @@
         <item name="call_log_voicemail_status_text_color">#888888</item>
         <item name="call_log_voicemail_status_action_text_color">#ff8e00</item>
     </style>
-
+    
+    <style name="CallStatsActivityTheme" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/background_dial_holo_dark</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    
     <style name="Theme">
     </style>
 

@@ -37,4 +37,3 @@ public final class DialerApplication extends Application {
         return super.getSystemService(name);
     }
 }
-
