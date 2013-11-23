@@ -21,7 +21,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/call_log_list_item"
     android:orientation="vertical"
-    android:background="@drawable/bottom_border_background"
+    android:background="@color/call_log_list_item"
 >
     <!--
         This layout may represent either a call log item or one of the
