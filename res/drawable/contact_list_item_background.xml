@@ -15,5 +15,9 @@
 -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/bottom_border_background_pressed"  />
+<<<<<<< HEAD:res/drawable/contact_list_item_background.xml
     <item android:drawable="@color/call_log_list_item" />
+=======
+    <item android:drawable="@drawable/bottom_border_background" />
+>>>>>>> cc7ba8174bfa09bef744704a7f5337d234fe9627:res/drawable/contact_list_item_background.xml
 </selector>
