@@ -15,9 +15,5 @@
 -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:drawable="@drawable/bottom_border_background" />
-<<<<<<< HEAD
-    <item android:drawable="@*android:drawable/list_selector_background_transition_holo_light" />
-=======
     <item android:drawable="@drawable/list_selector_background_transition_holo_light" />
->>>>>>> cc7ba8174bfa09bef744704a7f5337d234fe9627
 </layer-list>
