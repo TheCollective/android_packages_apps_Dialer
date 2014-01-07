@@ -55,7 +55,7 @@
     <color name="actionbar_background_color">#444444</color>
 
     <!-- Color of the 1dp divider that separates favorites -->
-    <color name="favorite_contacts_separator_color">#d0d0d0</color>
+    <color name="favorite_contacts_separator_color">#01000000</color>
 
     <!-- Background color of the search box -->
     <color name="searchbox_background_color">#444444</color>
@@ -76,7 +76,4 @@
     <color name="call_stats_outgoing">#99cc00</color>
     <color name="call_stats_missed">#eb1313</color>
     <color name="call_stats_bar_background">#88888888</color>
-
-    <!-- Backgrounds misc -->
-    <color name="call_log_list_item">#01000000</color>
 </resources>
