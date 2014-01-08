@@ -76,4 +76,7 @@
     <color name="call_stats_outgoing">#99cc00</color>
     <color name="call_stats_missed">#eb1313</color>
     <color name="call_stats_bar_background">#88888888</color>
+
+    <!-- Button Dial Container -->
+    <color name="dial_Button_Container">#ffff3000</color>
 </resources>
