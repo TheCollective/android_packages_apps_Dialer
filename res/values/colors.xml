@@ -43,6 +43,9 @@
     <!-- Background color of dialer list items (contacts, call log entries) -->
     <color name="background_dialer_list_items">#01000000</color>
 
+    <!-- Background color where keypad digits are displayed -->
+    <color name="background_digits_dialpad">#ff000000</color>
+
     <!-- Background color of new dialpad -->
     <color name="background_dialpad">#ff000000</color>
 
