@@ -35,7 +35,6 @@
         android:layoutDirection="ltr"
         android:background="@color/background_dialpad" >
 
-
         <!-- Text field and possibly soft menu button above the keypad where
              the digits are displayed. -->
         <LinearLayout
@@ -43,7 +42,6 @@
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="@integer/dialpad_layout_weight_digits"
-            android:layout_marginTop="@dimen/dialpad_vertical_margin"
             android:gravity="center"
             android:background="@color/background_digits_dialpad" >
 
@@ -85,7 +83,6 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/fake_action_bar_height"
             android:layout_gravity="center_horizontal"
-            android:background="@color/dial_Button_Container"
             android:background="@color/dialpad_call_button_color"
             android:layoutDirection="locale">
             <ImageButton

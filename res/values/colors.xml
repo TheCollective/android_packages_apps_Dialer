@@ -84,8 +84,6 @@
     <color name="call_stats_missed">#eb1313</color>
     <color name="call_stats_bar_background">#88888888</color>
 
-    <!-- Button Dial Container -->
-    <color name="dial_Button_Container">#ffff3000</color>
     <!-- New Colors for Theme Chooser to be compatible -->
     <color name="call_detail_photo_bg">#7f000000</color>
     <color name="call_log_divider">#55ffffff</color>
