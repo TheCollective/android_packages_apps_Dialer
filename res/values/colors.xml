@@ -50,7 +50,7 @@
     <color name="background_dialpad">#ff000000</color>
 
     <!-- Primary color of dialpad text, including the call button -->
-    <color name="dialpad_primary_text_color">#f30000</color>
+    <color name="dialpad_primary_text_color">#ff3000</color>
 
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
     <color name="dialpad_secondary_text_color">#b1b1b1</color>
@@ -93,9 +93,9 @@
     <color name="call_log_primary_background_color">#000000</color>
     <color name="call_log_secondary_text_color">#888888</color>
     <color name="call_log_secondary_background_color">#333333</color>
-    <color name="call_log_header_color">#33b5e5</color>
+    <color name="call_log_header_color">#ff3000</color>
     <color name="call_log_voicemail_status_background_color">#262626</color>
     <color name="call_log_voicemail_status_text_color">#888888</color>
-    <color name="call_log_voicemail_status_action_text_color">#33b5e5</color>
+    <color name="call_log_voicemail_status_action_text_color">#ff3000</color>
     <color name="dialtacts_frame_color">#33999999</color>
 </resources>
